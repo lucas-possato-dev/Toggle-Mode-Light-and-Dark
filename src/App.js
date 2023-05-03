@@ -49,7 +49,9 @@ function App() {
           </form>
           <div className="bottom">
             <p>Forget your password?</p>
-            <a href="/">Reset Password</a>
+            <a onClick={handleClick} href="/">
+              Reset Password
+            </a>
           </div>
           <p className="create">Create Account</p>
         </div>
